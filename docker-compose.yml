@@ -1,4 +1,4 @@
-version: "3.7"
+version: "3.9"
 
 secrets:
   DJANGO_SECRET_KEY:
@@ -34,7 +34,7 @@ services:
 
 
   django_container_gunicorn:
-    image: kusandbox_image:3
+    image: kusandbox_image:19
     networks:
       - network
     volumes:
@@ -55,3 +55,4 @@ services:
       - media-volume:/data/media/
     ports:
       - 80:80
+
