@@ -28,8 +28,8 @@ SECRET_KEY = read_secret('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'ku-sandbox.com','158.247.220.131', ]
-
+#ALLOWED_HOSTS = ['localhost', 'ku-sandbox.com','158.247.220.131', ]
+ALLOWED_HOSTS = ['*']
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
