@@ -1,4 +1,4 @@
-version: "3.9"
+version: "3.7"
 
 secrets:
   DJANGO_SECRET_KEY:
@@ -38,8 +38,8 @@ services:
     networks:
       - network
     volumes:
-      - static-volume:/home/kusandbox/staticfiles/
-      - media-volume:/home/kusandbox/media/
+      - static-volume:/home/sandbox2/staticfiles/
+      - media-volume:/home/sandbox2/media/
     secrets:
       - MYSQL_PASSWORD
       - DJANGO_SECRET_KEY

@@ -1,8 +1,8 @@
-FROM python:3.9.0
+FROM python:3.7.0
 
 WORKDIR /home/
 
-RUN echo "sandbox new repo new repo"
+RUN echo "new release"
 
 RUN git clone https://github.com/matt700395/sandbox2.git
 
